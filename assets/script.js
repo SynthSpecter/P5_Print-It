@@ -30,14 +30,6 @@ let currentSlide = 0
 
 // Écouteurs d'événements pour les clics sur les flèches
 
-arrow_left.addEventListener('click', (e) => {
-  console.log('Vous avez cliqué sur précédent')
-})
-
-arrow_right.addEventListener('click', (e) => {
-  console.log('Vous avez cliqué sur suivant')
-})
-
 arrow_left.addEventListener('click', previous)
 arrow_right.addEventListener('click', next)
 
